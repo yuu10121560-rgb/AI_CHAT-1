@@ -1,6 +1,6 @@
 export const API_KEY = "";
 export const STORAGE_KEY = 'gemini_chat_sessions';
-export const MODEL_NAME = "gemini-3-pro-preview";
+export const MODEL_NAME = "gemini-3.1-pro-preview";
 
 
 export const DEFAULT_SUMMARY_LEVEL = 5;
@@ -97,6 +97,7 @@ Data Fidelity & Scope:  - Include: Key plot events, major relationship changes (
 [FINAL INSTRUCTION]
 Analyze the provided dialogue and create a summary following all protocols. Apply SUMMARY_LEVEL=${level} and ALLOW_OMISSION=OFF. Output must be in KOREAN following the exact structure above.`;
 }
+
 
 
 
